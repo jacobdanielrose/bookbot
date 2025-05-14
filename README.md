@@ -1,24 +1,57 @@
-# Bookbot
+# BookBot 📚
 
-BookBot is a very simple command line tool which takes a book (as .txt) as input and print the number of words that it contains as well the number of times a given character occurs within it. 
+BookBot is a simple command-line tool that analyzes `.txt` book files to provide basic statistics:
 
-It only works with text files. No .epub or .pdf files. Maybe I will expand it to these file types as an added practice in the future. 
+- **Word Count**: Total number of words in the book.
+- **Character Frequency**: Number of times a specified character appears in the text.
 
-## How to use:
+> 🚧 This project was developed as part of the [Boot.dev](https://boot.dev) Backend Developer curriculum.
+> It serves as an introductory project to practice Python scripting and file handling.
 
-To run simply copy this repo to your computer:
+
+---
+
+## 🚀 Features
+
+- 📄 Supports plain text files (`.txt`).
+- 🔢 Counts total words and character occurrences.
+- ⚙️ Easy-to-use command-line interface.
+
+---
+
+## 📁 Project Structure
 
 ```
-git clone https://github.com/jacobdanielrose/bookbot.git
+bookbot/
+├── main.py           # Main script to run the program
+├── stats.py          # Contains functions for word and character counting
+├── .gitignore        # Specifies files and directories to ignore in version control
+└── README.md         # Project documentation
 ```
 
-and run the command:
+---
 
-```
-python3 main.py <path_to_book_file>
-```
+## 🛠️ Installation & Usage
 
-This may or may not work with python 2 (I never tested it but it's {INSERT CURRENT YEAR HERE}, you should really be using python3).
+### Prerequisites
 
-BookBot is my first project as part of the [Boot.dev](https://www.boot.dev) back-end developer path.
+- Python 3.x (Python 2 is not supported)
+
+### Steps
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/jacobdanielrose/bookbot.git
+   cd bookbot
+   ```
+2. Run the program:
+   ```
+   python3 main.py <path_to_book_file>
+   ```
+## 📄 License
+
+This project is licensed under the MIT License.
+
+
 
